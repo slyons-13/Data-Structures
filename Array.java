@@ -13,6 +13,7 @@ public class Array {
             // user enters a number
             double num = sc.nextDouble();
             if (num == 99999) {
+                // prints error message if no numbers have been entered, breaks loop
                 if (i == 0) {
                     System.out.println("Error: no numbers entered");
                     break;
@@ -25,6 +26,7 @@ public class Array {
             }
         }
 
+        //print list
         System.out.println(numList);
 
     }
